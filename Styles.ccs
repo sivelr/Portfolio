@@ -1,0 +1,78 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background: linear-gradient(45deg, #00b4d8, #0077b6);
+    color: #fff;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+}
+
+.nav-bar {
+    background: #111;
+    padding: 10px 0;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #00b4d8;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.projects .project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background: #222;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #111;
+    color: #777;
+}
