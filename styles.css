@@ -17,6 +17,7 @@ a {
     color: inherit;
 }
 
+/* Header Section */
 header.supreme-header {
     display: flex;
     justify-content: space-between;
@@ -26,24 +27,44 @@ header.supreme-header {
     border-bottom: 2px solid #000;
 }
 
-header .logo a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
+.logo {
+    display: flex;
+    align-items: center;
 }
 
-header .nav-menu ul {
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.nav-menu ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-header .nav-menu a {
+.nav-menu a {
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
+    text-decoration: none;
+    color: #000;
 }
 
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -65,6 +86,7 @@ header .nav-menu a {
     font-size: 1.25rem;
 }
 
+/* About, Projects, Contact Sections */
 .about-section, .projects-section, .contact-section {
     padding: 50px 20px;
     border-bottom: 2px solid #f2f2f2;
@@ -96,6 +118,7 @@ header .nav-menu a {
     color: #ff0000;
 }
 
+/* Footer Section */
 footer.supreme-footer {
     background: #000;
     color: #fff;
