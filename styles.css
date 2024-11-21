@@ -143,6 +143,22 @@ header.supreme-header {
     color: #555;
 }
 
+.project-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.project-item a:hover {
+    background-color: #005f99;
+}
+
+
 /* Footer Section */
 footer.supreme-footer {
     background: #f9f9f9;
